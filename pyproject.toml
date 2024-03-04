@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sales-network"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Akulich <pavelakulich1999@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sales_network"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.1"
+pillow = "^10.2.0"
+django-filter = "^23.5"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
